@@ -1,7 +1,27 @@
+html {
+    height: 100%;
+}
+
+* {
+    color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+
 .logo img {
     flex-shrink: 0;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    margin: 25px 10px 25px 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: cinzel;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 body {
@@ -15,15 +35,107 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 8px solid black;
+    background-color: #222831;
 }
 
 .header-option ul {
     list-style-type: none;
     display: flex;
+    gap: 75px;
+    margin-right: 40px;
+    font-size: 20px;
 }
 
 .header-option ul li a {
     text-decoration: none;
-    color: grey;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222831;
+    gap: 100px;
+}
+
+.intro .text {
+    font-size: 48px;
+    margin: 0 25px 40px 25px;
+    width: 50vh;
+    height: auto;
+}
+
+.intro .text p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: block;
+    font-weight: lighter;
+}
+
+.intro img {
+    height: 300px;
+    width: auto;
+    margin: 40px 25px 40px 40px;
+}
+
+.random-info {
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-info p {
+    margin: 40px 0 0 0;
+    font-size: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 0;
+    margin: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 18px;
+}
+
+.card img {
+    height: 300px;
+    width: auto;
+}
+
+.card p {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text {
+    margin: 70px 300px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.quote .text .source {
+    font-size: 25px;
+    justify-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 20px;
 }
