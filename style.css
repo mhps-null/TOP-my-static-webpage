@@ -190,6 +190,7 @@ button {
 .sign-up button {
     background-color: #3882F6;
     border: 2px white solid;
+    width: 110px;
 }
 
 .footer {
