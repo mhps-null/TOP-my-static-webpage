@@ -1,6 +1,6 @@
 # Blue Ink Tablespoon Game Developer
 
-![Blue Ink Tablespoon](./resources/logo%20with%20text.png)
+<img src ="./resources/logo%20with%20text.png" height="100px">
 ![The Odin Project](./resources/The-Odin-Project.png)
 
 A game developer startup from Indonesia founded by college students, consisting of programmers, visual artists, audio artists, and story writers.
